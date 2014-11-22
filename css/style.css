@@ -49,6 +49,11 @@ header{
 	padding: 20px 0 0 0;
 }
 
+.trigger{
+
+	display: none;
+}
+
 nav {
 
 	background: #fee34c;
@@ -170,4 +175,22 @@ footer{
 		padding: 10px;
 
 	}
+
+	.header{
+
+		position: relative;
+	}
+
+	.trigger{
+
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 0;
+	}
+	nav{
+
+		display: none;
+	}
+	
 }
